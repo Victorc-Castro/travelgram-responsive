@@ -72,6 +72,10 @@ p {
   font-size: var(--fs-md);
 }
 
+span {
+  font-size: var(--fs-md);
+}
+
 a {
   font-size: var(--fs-sm);
 }
