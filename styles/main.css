@@ -1,0 +1,31 @@
+#main-img {
+  width: 328px;
+  height: 328px;
+  object-fit: cover;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (width >= 80em) {
+  #main-img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 32px;
+  }
+
+  .py-bs {
+    padding-block: var(--py-lg);
+  }
+
+}
