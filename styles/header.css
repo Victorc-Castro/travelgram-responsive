@@ -28,13 +28,13 @@
   }
 }
 
-.profile-img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
-
 @media (width >= 80em) {
   #margin {
     margin-inline: 32px;
   }
+
+  .profile-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 }

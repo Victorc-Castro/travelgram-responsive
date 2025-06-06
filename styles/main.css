@@ -2,6 +2,7 @@
   width: 328px;
   height: 328px;
   object-fit: cover;
+  border-radius: 3%;
 }
 
 .main {
@@ -15,17 +16,21 @@
     width: 286px;
     height: 286px;
     object-fit: cover;
+    border-radius: 3%;
   }
 
-  .main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    padding: 32px;
+  & #main-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
   }
 
-  .py-bs {
+  & .main {
+    display: grid;
+    grid-template-columns: repeat(4, 286px);
+    gap: 24px;
+  }
+
+  & .py-bs {
     padding-block: var(--py-lg);
   }
-
 }
