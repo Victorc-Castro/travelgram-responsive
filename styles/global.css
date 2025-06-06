@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  list-style: none;
+}
+
+:root {
+  /* Cores */
+
+  /* Produto */
+  --brand-color: #EF5F4C;
+  /* Shape */
+  --background-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparecy: hsl(0, 0%, 56%);
+  /* Text */
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  /* Fontes */
+  --ff-poppins: "Poppins", system-ui, sans-serif;
+  --fw-base: 400;
+  --fw-bold: 700;
+
+  --fs-heading: 1.5rem;
+  --fs-md: 0.875rem;
+  --fs-sm: 0.75rem;
+
+  /* Variáveis responsiveis */
+  --py-bs: 1rem; 
+  --py-lg: 2rem;
+  --py-xl: 1rem;
+
+  --px-lg: 1rem;
+  --px-xl: 2rem;
+}
+
+html {
+  font-family: var(--ff-poppins);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-sm);
+  line-height: 170%;
+  color: var(--text-color-secondary);
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+h1 {
+  line-height: 125%;
+  color: var(--text-color-primary);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-heading); 
+}
+
+p {
+  font-size: var(--fs-md);
+}
+
+a {
+  font-size: var(--fs-sm);
+}
+
+@media (width >= 80em) {
+  :root {
+  --fs-heading: 2.375rem;
+  --fs-md: 1.25rem;
+
+  --py-bs: 1.25rem; 
+  --py-xl: 1.5rem;
+  
+  --px-lg: 2rem;
+  }
+}
