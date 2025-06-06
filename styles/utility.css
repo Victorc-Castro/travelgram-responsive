@@ -22,8 +22,6 @@
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
-
-  border: 1px salmon solid;
 }
 
 .flex {
