@@ -17,6 +17,7 @@
   & .section-info {
     display: flex;
     align-items: center;
+    padding: 32px; 
   }
 
   & ul {
@@ -34,4 +35,3 @@ li {
   align-items: center;
   gap: 0.5rem;
 }
-
