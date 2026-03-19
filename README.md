@@ -2,16 +2,16 @@
  <img src="./assets/page-img.png" alt="Foto de capa" width="100%" />
 </p>    
 
-## 💻 Projeto
-Esse é um projeto Web responsivo feito com o intuito de aprender e aperfeiçoar os conhecimentos sobre HTML e CSS. Focando na responsividade de um projeto já antes feito, refazendo o código, melhorando e aperfeiçoando o site com novas funções. 
+## 💻 Travelgram Responsive
+This is a responsive web project created to learn and master HTML and CSS. It focuses on adding responsiveness to a previous project, refactoring the code, and enhancing the website with new features. 
 
-## 👩‍💻 Tecnologias
-Esse projeto foi desenvolvido usando as seguintes tecnologias:
+## ⚙️ Technologies Used
+This project was developed using the following technologies:
 
 - HTML
 - CSS
 - GIT E Github
 
 ## 🏷️ Layout
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1392188119249243534).
-É necessário ter uma conta no [Figma](https://www.figma.com).
+You can view the project layout through [this link](https://www.figma.com/community/file/1392188119249243534).
+Note: A Figma account is required [Figma](https://www.figma.com).
